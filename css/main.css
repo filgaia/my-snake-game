@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    /* Background generated in https://cssgradient.io/ */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,115,121,0.15) 0%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__title {
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.content__game {
+    border: 1px solid gray;
+}
+
+.score {
+    color: black;
+    font-size: 24px;
+}
+
+.score p {
+    position: absolute;
+}
+
+.score__label {
+    left: 100px;
+    top: 10px;
+}
+
+.score__label--record {
+    left: 100px;
+    top: 30px;
+}
+
+.score__value  {
+    left: 200px;
+    top: 10px;
+}
+
+.score__value--record {
+    left: 250px;
+    top: 30px;
+}
+
+.play-again {
+    display: none;
+    position: absolute;
+    font-size: 24px;
+}
